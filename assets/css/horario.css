@@ -1,0 +1,79 @@
+@import url(base.css);
+
+.content-timetable {
+  font-family: "Poppins", sans-serif;
+  width: 1000px;
+}
+
+.header-horario {
+  background: rgb(249, 64, 159);
+  background: linear-gradient(
+    317deg,
+    rgba(249, 64, 159, 1) 56%,
+    rgba(246, 195, 19, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.timetable {
+  margin: var(--margin-page);
+}
+
+.timetable h2 {
+  margin-top: 0px;
+  font-size: 40px;
+}
+
+table {
+  border-collapse: separate;
+  border: solid rgb(255, 255, 255) 1px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+caption {
+  font-size: 20px;
+}
+
+table th:first-child {
+  border-radius: 10px 0 0 0;
+}
+table th:last-child {
+  border-radius: 0 10px 0 0;
+}
+table tr:last-child td:first-child {
+  border-radius: 0 0 0 10px;
+}
+table tr:last-child td:last-child {
+  border-radius: 0 0 10px 0;
+}
+table tr:hover td {
+  background-color: #ddd;
+}
+
+table th,
+td {
+  padding: 5px 15px;
+}
+
+thead {
+  background: linear-gradient(
+    317deg,
+    rgba(218, 139, 0, 1) 2%,
+    rgba(246, 171, 19, 1) 67%
+  );
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 1px 4px rgb(138, 138, 138);
+}
+
+tbody {
+  background-color: var(--color-card);
+  font-size: 16px;
+}
+
+.img-content {
+  width: 785px;
+  padding-top: 40px;
+}
