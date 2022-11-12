@@ -1,19 +1,10 @@
-@import url(base.css);
-
 .content-timetable {
   font-family: "Poppins", sans-serif;
-  width: 1000px;
 }
 
-.header-horario {
-  background: rgb(249, 64, 159);
-  background: linear-gradient(
-    317deg,
-    rgba(249, 64, 159, 1) 56%,
-    rgba(246, 195, 19, 1) 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+
+.sec-servicos ul li::marker {
+  color: blueviolet;
 }
 
 .timetable {
@@ -75,5 +66,6 @@ tbody {
 
 .img-content {
   width: 785px;
-  padding-top: 40px;
+  margin-top: 40px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 10px;
 }

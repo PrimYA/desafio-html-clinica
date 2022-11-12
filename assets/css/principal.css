@@ -1,0 +1,20 @@
+article {
+  margin: var(--margin-page);
+}
+
+.home-content {
+  font-family: "Poppins", sans-serif;
+}
+
+main h1 {
+  font-size: 40px;
+}
+
+.home-content h2 {
+  font-size: 30px;
+}
+
+article > img {
+  width: 650px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}

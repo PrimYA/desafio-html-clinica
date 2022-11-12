@@ -1,0 +1,12 @@
+article {
+    margin: var(--margin-page);
+}
+
+.content {
+    font-family: "Poppins", sans-serif;
+}
+
+main h1 {
+    font-size: 40px;
+    
+  }
