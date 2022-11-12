@@ -26,7 +26,9 @@ Um modelo base foi criado, pois esta trilha é apenas HTML; [Link do modelo no G
 3. Cada página deve ser criada e estruturada:
    - As páginas terão que seguir um padrão predefinido. Uma estrutura semelhante a image abaixo.
 
-![Estrutura](https://i.stack.imgur.com/9jI6f.gif)
+<p align="center">
+    <img width="250" src="https://i.stack.imgur.com/9jI6f.gif">
+</p>
 
 No **Menu**, ficará localizado o menu de navegação, no **Header** de cada página ficará uma imagem, no **Footer** informações de contato, e o **Content** é o conteúdo de cada página.
 
